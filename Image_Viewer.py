@@ -19,7 +19,7 @@ def main():
     textbox = QTextEdit()
     button = QPushButton("Press me")
 
-    button.clicked.connect(on_clicked)
+    button.clicked.connect(lambda: on_clicked(textbox.toPlainText()))
 
     layout.addWidget(label)
     layout.addWidget(textbox)
@@ -36,9 +36,9 @@ def main():
     app.exec_()
 
 
-def on_clicked():
+def on_clicked(msg):
     message = QMessageBox()
-    message.setText("Hellow World")
+    message.setText(msg)
     message.exec_()
 
 if __name__ == '__main__':
