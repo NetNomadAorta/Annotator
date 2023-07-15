@@ -1,0 +1,34 @@
+{
+  "info": {
+    "description": "COCO format annotations",
+    "year": "2023"
+  },
+  "images": [
+    {
+      "file_name": "C:\\Users\\troya\\.spyder-py3\\Annotator\\Images\\88.jpg",
+      "width": 600,
+      "height": 600,
+      "id": 0
+    }
+  ],
+  "annotations": [
+    {
+      "bbox": [
+        317,
+        229,
+        77,
+        72
+      ],
+      "category_id": 0,
+      "image_id": 0,
+      "id": 0
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "",
+      "id": 0,
+      "name": "This"
+    }
+  ]
+}
